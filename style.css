@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F1ECE3;
+    transition: background-color 0.5s ease-in-out;
+}
+#mode-toggle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+  
+body.light-mode {
+    background-color: #F1ECE3;
+}
+  
+body.dark-mode {
+    background-color: #1C1C1C;
+    color: #fff;
+}
+
+.dark-mode input[type="text"] {
+    color: #000;
+  }  
+  
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.5em;
+    color: #333;
+}
+
+span {
+    color: #333; 
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
+    color: #333;
+    width: 100%;
+    max-width: 500px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 50px 0;
+}
+
+.output-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.output-container span {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.output-container input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    font-size: 1.2em;
+    color: #333;
+    width: 100%;
+    max-width: 500px;
+}
+
+h1, .output-container span, label {
+    color: inherit;
+    transition: color 0.6s ease-in-out;
+  }
+  
